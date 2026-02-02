@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Cyber Security Awareness</h1>
+        <p>Learn how to protect yourself from cyber-attacks and improve your digital safety.</p>
+    </header>
+
+    <!-- Information Section -->
+    <section class="info-section">
+        <h2>What is Cyber Security?</h2>
+        <p>Cyber Security involves protecting computer systems and networks from cyber threats, such as hacking, data breaches, and malware. It is crucial to ensure personal and organizational safety in the digital world.</p>
+
+        <h3>How to Protect Yourself:</h3>
+        <ul>
+            <li>Use strong, unique passwords for different accounts.</li>
+            <li>Be cautious of phishing emails and suspicious links.</li>
+            <li>Keep your software and systems updated.</li>
+            <li>Use a Virtual Private Network (VPN) for secure internet browsing.</li>
+            <li>Enable two-factor authentication (2FA) where possible.</li>
+        </ul>
+
+        <button id="password-checker-btn">Check Your Password</button>
+    </section>
+
+    <!-- Password Checker Popup -->
+    <div id="password-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-popup">&times;</span>
+            <h3>Password Strength Checker</h3>
+            <input type="text" id="password-input" placeholder="Enter password" />
+            <button onclick="checkPassword()">Check Password</button>
+            <p id="password-result"></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <!-- <footer>
+        <div class="footer-info">
+            <a href="#about-section" id="about-link">About</a>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
